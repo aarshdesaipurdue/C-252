@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Home</title>
+
+        <!---BootStrap-->
+        <link rel = "stylesheet " href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.main.css">
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.2/jquery.min.js" ></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+            
+        
+        
+        
+
+        
+    </head>
+
+
+    <body>
+        <div class = "row">
+            <div class = "col-sm-12 col-md-12 col-lg-12 m-3 text-center">
+                <h3>  Sensor Readings </h3>
+
+            </div>
+</div>
+
+<div class = "row">
+    <div class = "col-sm-0 col-md-3 col-lg-3">
+        <div class = "col-sm-12 col-md-3 col-lg-3 reading-box">
+            <div id = "temp_box">
+                <div class = "row">
+
+                    
+                    <div class = "col-sm-12 col-md-12 col-lg-12 text-center">
+                        <img src = "/static/temp.png" height = 100/>
+                    </div>
+
+
+
+                    <div class = "col-sm-12 col-md-12 col-lg-12 text-center ">
+                      <h2>{{data.get("Temperature")}} C </h2>  
+                    
+                    </div>
+                </div>
+                
+                
+            </div>
+        
+
+        </div>
+    </div>
+
+</div>
+    </body>
+</html>
